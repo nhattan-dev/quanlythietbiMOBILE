@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextMaPhongADD"
+        android:hint="Tên phòng học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextLoaiPhongADD"
+        android:hint="Loại học"
+        android:layout_below="@+id/editTextMaPhongADD"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextTangPhongADD"
+        android:hint="Tầng phòng học"
+        android:layout_below="@+id/editTextLoaiPhongADD"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTangPhongADD"
+        android:orientation="horizontal"
+        android:weightSum="20"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/buttonHUYPhongHocADD"
+            android:text="HỦY"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/buttonThemPhongHocADD"
+            android:text="Xác Nhận"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

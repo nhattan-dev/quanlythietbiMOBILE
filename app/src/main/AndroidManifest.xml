@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mid_term">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Midterm">
+        <activity android:name=".activity.ThongKePieChart"></activity>
+        <activity android:name=".activity.ThongKeConLai" />
+        <activity android:name=".activity.ThongKeTanSuat" />
+        <activity android:name=".activity.ThongKeMuon" />
+        <activity android:name=".activity.MuonThietBi" />
+        <activity android:name=".activity.ThietBiCapNhat" />
+        <activity android:name=".activity.ThietBiMoi" />
+        <activity android:name=".activity.ThongKe" />
+        <activity android:name=".activity.PhieuMuon" />
+        <activity android:name=".activity.PhongHoc" />
+        <activity android:name=".activity.ThietBi" />
+        <activity android:name=".activity.Home" />
+        <activity android:name=".activity.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

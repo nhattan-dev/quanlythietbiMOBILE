@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:weightSum="25"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/tb_item_bg"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/textViewMaPhongHoc"
+            android:text="2A16"
+            android:textSize="20sp"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewLoaiPhong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:paddingLeft="10dp"
+            android:text="Hội Trường"
+            android:maxLines="1"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewTangPhongHoc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="5"
+            android:text="1"
+            android:maxLines="1"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/imageButtonEditPhongHoc"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/edit"/>
+
+        <ImageView
+            android:id="@+id/imageButtonDeletePhongHoc"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delete"/>
+    </LinearLayout>
+</FrameLayout>
